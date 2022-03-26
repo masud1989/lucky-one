@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Cart = ({cart}) => {
     // const{cart} = props;
-    console.log(cart);
+    // console.log(cart);
     return (
         <div>
             {/* {cart.length >4?(window.alert("ok")) : */}
@@ -20,7 +20,7 @@ const Cart = ({cart}) => {
               ))
             }
             <button className='btn btn-success mt-4 ps-5 pe-5'>Choose 1 for me</button>
-            <button className='btn btn-danger mt-4 ps-5 pe-5'>Choose Again</button>
+            <button onClick={()=>cart.handleSelectAgain(cart)} className='btn btn-danger mt-4 ps-5 pe-5'>Choose Again</button>
 
 
         </div>

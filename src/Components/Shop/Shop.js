@@ -24,9 +24,14 @@ const Shop = () => {
         else{
             window.alert('You can select 4 items at once')
         }
-        
-
     }
+
+    const handleSelectAgain = (product) =>{
+        const zeroCart = [];
+    }
+
+
+
     return (
         <div>
             <div className="container my-5">
