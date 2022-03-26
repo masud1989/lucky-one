@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css';
@@ -19,7 +18,13 @@ const Shop = () => {
         // setCart(product)
         const newCart = [...cart, product]
         // console.log(newCart);
-        setCart(newCart);
+        if(newCart.length<=4){
+            setCart(newCart);
+        }
+        else{
+            window.alert('You can select 4 items at once')
+        }
+        
 
     }
     return (
