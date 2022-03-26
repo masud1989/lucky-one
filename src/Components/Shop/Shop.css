@@ -6,5 +6,10 @@
 .product-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    gap: 10px;
+}
+
+.cart{
+    height: 600px;
+    background-color: rgb(230, 227, 225);
 }
