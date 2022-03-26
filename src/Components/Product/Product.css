@@ -1,14 +1,14 @@
 .product{
-    height: 550px;
-    width: 300px;
+    height: 450px;
+    width: 255px;
     margin-top: 5px;
     border: 2px solid rgb(231, 225, 225);
     border-radius: 8px;
     position: relative;
 }
 .product img{
-    height: 286px;
-    width: 286px;
+    height: 260px;
+    width: 237px;
     border-radius: 8px;
     margin: 7px;
 }
@@ -18,13 +18,13 @@
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
-    line-height: 25px;
+    line-height: 15px;
     padding: 7px;
     
 }
 
 .product-info{
-    margin: 15px;
+    margin: 5px;
 }
 
 .product-info p{
